@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-jsx"],
+  "rules": {
+    "space-before-function-paren": ["error", "never"],
+    "jsx-quotes": ["error", "prefer-double"]
+  },
+  "globals": {
+    "fbq": true,
+    "graphql": true
+  }
+}
